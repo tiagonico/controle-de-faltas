@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayoutLinhaDisciplina">
+
+    <TextView
+        android:id="@+id/textViewDisciplina"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Disciplina"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewFaltas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FALTAS: "
+        android:textColor="#ffffff"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"/>
+
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/novo"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+
+
